@@ -13,17 +13,17 @@ spec:
         app: flight-reservation-api
     spec:
       containers:
-      - name: flight-reservation-api
-        image: ghcr.io/micheal-ndoh/spring-boot-dc:latest
-        ports:
-        - containerPort: 8080
-        env:
-        - name: SPRING_DATASOURCE_URL
-          value: jdbc:postgresql://postgres:5432/flightdb
-        - name: SPRING_DATASOURCE_USERNAME
-          value: mick
-        - name: SPRING_DATASOURCE_PASSWORD
-          value: password
+        - name: flight-reservation-api
+          image: ghcr.io/tegha-romeo/flight-reservation-api:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:postgresql://postgres:5432/flight_reservation
+            - name: SPRING_DATASOURCE_USERNAME
+              value: tegha
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: password
 ---
 apiVersion: v1
 kind: Service

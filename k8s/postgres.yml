@@ -14,7 +14,7 @@ kind: Deployment
 metadata:
   name: postgres
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: postgres
@@ -28,9 +28,9 @@ spec:
           image: postgres:16
           env:
             - name: POSTGRES_DB
-              value: "flightdb"
+              value: "flight_reservation"
             - name: POSTGRES_USER
-              value: "mick"
+              value: "tegha"
             - name: POSTGRES_PASSWORD
               value: "password"
           ports:
