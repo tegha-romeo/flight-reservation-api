@@ -1,0 +1,8 @@
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/App.java
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/service/TicketService.java
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/FlightReservationApplication.java
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/model/FlightTicket.java
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/repository/CompanyRepository.java
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/model/Company.java
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/controller/TicketController.java
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/repository/FlightTicketRepository.java
