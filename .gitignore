@@ -2,6 +2,10 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
+target/
+
+
+
 # Eclipse
 .classpath
 .project
