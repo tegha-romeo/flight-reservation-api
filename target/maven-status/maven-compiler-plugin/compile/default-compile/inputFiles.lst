@@ -5,4 +5,5 @@
 /home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/repository/CompanyRepository.java
 /home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/model/Company.java
 /home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/controller/TicketController.java
+/home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/OpenApiConfig.java
 /home/dzeco/flight-reservation-backend/src/main/java/com/example/flightreservation/repository/FlightTicketRepository.java
