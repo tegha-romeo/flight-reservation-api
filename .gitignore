@@ -36,3 +36,4 @@ k8s/*.yaml~
 
 # Others
 *.swp
+target/
